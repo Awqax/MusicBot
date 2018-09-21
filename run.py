@@ -290,9 +290,6 @@ def req_ensure_encoding():
             sys.stdout.isatty = lambda: True
 
 
-def req_ensure_env():
-    log.info("Ensuring we're in the right environment")
-
     if os.environ.get('APP_ENV') != 'docker' and not os.path.isdir(b64decode('LmdpdA==').decode('utf-8')):
         log.critical(b64decode('Qm90IHdhc24ndCBpbnN0YWxsZWQgdXNpbmcgR2l0LiBSZWluc3RhbGwgdXNpbmcgaHR0cDovL2JpdC5seS9tdXNpY2JvdGRvY3Mu').decode('utf-8'))
         bugger_off()
