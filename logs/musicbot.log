@@ -1,0 +1,16 @@
+[23.118019104] 2018-09-21 19:14:15,719 - INFO - launcher: Starting sanity checks
+[23.287057877] 2018-09-21 19:14:15,720 - INFO - launcher: Checking for Python 3.5+
+[23.432016373] 2018-09-21 19:14:15,720 - INFO - launcher: Checking console encoding
+[23.503065109] 2018-09-21 19:14:15,720 - INFO - launcher: Ensuring we're in the right environment
+[242.149829865] 2018-09-21 19:14:15,938 - INFO - launcher: Required checks passed.
+[242.406845093] 2018-09-21 19:14:15,939 - INFO - launcher: Optional checks passed.
+[242.568016052] 2018-09-21 19:14:15,939 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.5238530635833740] 2018-09-21 19:14:16,220 - WARNING - musicbot.config | In config.py::MainThread(4463973760), line 113 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[0.5239999294281006] 2018-09-21 19:14:16,220 - INFO - musicbot.config | In config.py::MainThread(4463973760), line 124 in run_checks: Using i18n: config/i18n/en.json
+[0.5265889167785645] 2018-09-21 19:14:16,223 - DEBUG - musicbot.json | In json.py::MainThread(4463973760), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[0.5561850070953369] 2018-09-21 19:14:16,252 - DEBUG - musicbot.bot | In bot.py::MainThread(4463973760), line 223 in _setup_logging: Set logging level to INFO
+[0.5563089847564697] 2018-09-21 19:14:16,253 - INFO - musicbot.bot | In bot.py::MainThread(4463973760), line 83 in __init__: Starting MusicBot 1.9.8_1
+[0.5564248561859131] 2018-09-21 19:14:16,253 - WARNING - musicbot.bot | In bot.py::MainThread(4463973760), line 86 in __init__: Autoplaylist is empty, disabling.
