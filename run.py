@@ -186,7 +186,7 @@ def bugger_off(msg="Press enter to continue . . .", code=1):
 
 
 # TODO: all of this
-def sanity_checks(optional=True):
+def sanity_checks(optional=False):
     log.info("Starting sanity checks")
     ## Required
 
