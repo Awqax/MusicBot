@@ -307,7 +307,7 @@ def req_ensure_encoding():
     try:
         os.mkdir('musicbot-test-folder')
     except Exception:
-        log.critical("Current working directory does not seem to be writable")
+        log.critical("Current working directory does not seem to be writablehehe")
         log.critical("Please move the bot to a folder that is writable")
         bugger_off()
     finally:
